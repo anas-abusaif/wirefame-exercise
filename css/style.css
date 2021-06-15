@@ -52,15 +52,22 @@ div a{
   text-align: center;
   text-decoration: none;
   color: darkblue;
-  background-color: tomato;
+  background-color: rgb(253, 171, 156);
   padding: 10px;
   border-radius: 50px;
+}
+div a:hover{
+  background-color: rgb(255, 72, 40);
+color: rgb(255, 255, 255);
 }
 header a{
   align-content: center;
    text-decoration: none;
   font-size: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header a:hover{
+  color: rgb(255, 0, 0);
 }
 main section:nth-child(4) img{
   width: 80%;
